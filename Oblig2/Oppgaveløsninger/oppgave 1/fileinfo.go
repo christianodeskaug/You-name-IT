@@ -1,57 +1,73 @@
-package main
+ackage main
 
 import (
 	"fmt"
 	"os"
-	"io/ioutil"
+	"flag"
 	"log"
 )
 
 
-//main funskjonen
 func main() {
+	// Skriv først go build fileinfo.go
 
+	Peker := flag.String("f","", "filnavn")
 
-fmt.Printf("Information about <fileinfo.go>: \n")
+	flag.Parse()
+	// fileinfo -f [filnavn] for å finne filen
 
-	file, err := os.Open("fileinfo.go")
+	info := *Peker
+
+	file, err := os.Lstat(*Peker) // For å få lest filen.
 	if err != nil {
-		fmt.Printf("couldn't open file: %s\n", err)
-		os.Exit(1)
+		log.Fatal(err)
 	}
 
 
+	mode :=file.Mode()
+	dir := mode.IsDir()
+	reg := mode.IsRegular()
+	append := mode&os.ModeAppend !=0
+	dev := mode%os.ModeDevice !=0
+	sym := mode%os.ModeSymlink !=0
 
 
+	x := float64(file.Size())
+	kb := x/1024
+	mb := kb/1024
+	gb := mb/1024
+	fmt.Printf("Information about file %s: \n", info)
+	fmt.Printf("Size : %.0fB, %fKB, %fMB, %.9fGB \n", x, kb, mb, gb)
 
- 	//Størrelse på filen
 
-	size, err := ioutil.ReadFile("fileinfo.go")
-	if err != nil{
-		log.Panicf("failed at reading data from file: %s", err)
+	// Informasjon om filen
+	if dir == true{
+		fmt.Println("is directory")
+	} else {
+		fmt.Println("is not directory")
 	}
-	fmt.Printf("Size: %d bytes\n", len(size))
-	i := len(size)
-	f := float64(i)
-	fmt.Printf("Size: %f Kilobytes\n", f/1e3)
-	fmt.Printf("Size: %f Megabytes\n", f/1e6)
-	fmt.Printf("Size: %f Gigabytes\n", f/1e9)
+	if reg == true{
+		fmt.Println("is regular file")
+	} else {
+		fmt.Println("is not regular file")
+	}
+	fmt.Println("Has Unix permission bits: ",mode)
+	if append == true{
+		fmt.Println("is append only")
+	} else {
+		fmt.Println("is not append only")
+	}
+	if dev == true {
+		fmt.Println("is device file")
+	} else {
+		fmt.Println("is not device file")
+	}
+	if sym == true{
+		fmt.Println("is symbolic link")
 
-
-
-
-	//Ulike "stats"
-	stats, err := file.Stat()
-	if err != nil {
-		fmt.Printf("couldn't get stats: %s\n", err)
-		os.Exit(1)
+	} else {
+		fmt.Println("is not symbolic link")
 	}
 
-	fmt.Printf("Is dir: %t\n", stats.IsDir())
-	fmt.Printf("Is regular: %t\n", stats.Mode().IsRegular())
-	fmt.Printf("Unix permissions: %s\n", stats.Mode().String())
-	fmt.Printf("Append only: %t\n", stats.Mode()&os.ModeAppend != 0)
-	fmt.Printf("Is device: %t\n", stats.Mode()&os.ModeDevice != 0)
-	fmt.Printf("Is symlink: %t\n", stats.Mode()&os.ModeSymlink != 0)
 
 }
