@@ -32,11 +32,11 @@ func readInput(c chan int) {
 	fmt.Println("Sett inn ett annet tall: ")
 	fmt.Scan(&tall2)
 
-	c <- tall1 //sender data via channel
+	c <- tall1 //Sender data via channelen
 
 	c <- tall2
 
-	sum := <-c // mottar sum / resultat ifra channel
+	sum := <-c // Sum og resultat fra channel
 
 	fmt.Println("Resultat: ", sum)
 
@@ -46,11 +46,11 @@ func readInput(c chan int) {
 
 func addUp(c chan int) {
 
-	tall1, tall2 := <-c, <-c // mottar data fra readInput()
+	tall1, tall2 := <-c, <-c // Får tak i data fra readInput()
 
 	sum := tall1 + tall2
 
-	c <- sum // sender sum / resultat tilbake til readInput()
+	c <- sum // Sender resultat tilbake til readInput()
 
 	signal_chan := make(chan os.Signal, 1)
 	signal.Notify(signal_chan,
