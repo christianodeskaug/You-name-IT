@@ -74,3 +74,4 @@ func addUp(c chan int) {
 
 
 }
+
