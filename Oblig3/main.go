@@ -4,6 +4,7 @@ import (
   "strings"
   "time"
 )
+
 func sayHello(w http.ResponseWriter, r *http.Request)
 {
   message := r.URL.Path
