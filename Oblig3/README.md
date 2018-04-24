@@ -1,4 +1,4 @@
-* Gruppemedlemmer: 
+**Gruppemedlemmer:** 
 
 - Christian Ødeskaug - christianodeskaug@hotmail.com
 - Henrik Lindseth
@@ -7,5 +7,5 @@
 
 
 
-* Oppgave 1: 
+**Oppgave 1:** 
 Link til resultat, koden finnes i main.go filen.
