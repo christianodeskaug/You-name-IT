@@ -1,6 +1,7 @@
 **Gruppemedlemmer:** 
 
 - Christian Ødeskaug - christianodeskaug@hotmail.com
+  - Hovedprogrammerer - Flinkeste eleven, hilsen Henrik og Kristian
 - Henrik Lindseth - henrik.lindseth1@gmail.com
 - Kristian Holmberg Sørensen - kristian_h_sorensen@hotmail.com
 
