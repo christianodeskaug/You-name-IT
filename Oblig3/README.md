@@ -1,16 +1,11 @@
 **Gruppemedlemmer:** 
 
 - Christian Ødeskaug - christianodeskaug@hotmail.com
-- Henrik Lindseth
+- Henrik Lindseth - henrik.lindseth1@gmail.com
 - Kristian Sørensen
 
 
 
 
 **Oppgave 1:** 
-Link til resultat: http://oi68.tinypic.com/256s4rb.jpg 
-Koden finnes i main.go filen.
-
-**Oppgave 2:**
-
-**Oppgave 3:**
+Link til resultat, koden finnes i main.go filen.
