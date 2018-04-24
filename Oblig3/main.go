@@ -13,7 +13,6 @@ func sayHello(w http.ResponseWriter, r *http.Request)
   message = "Hello client" + message
   w.Write([]byte(message))
 }
-
 func main() 
 {
   http.HandleFunc("/", sayHello)
