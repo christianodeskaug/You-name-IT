@@ -7,7 +7,6 @@
 
 
 
-
 **Oppgave 1:** 
 Link til resultat: http://oi68.tinypic.com/256s4rb.jpg
 Koden finnes i main.go filen.
