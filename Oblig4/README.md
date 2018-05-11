@@ -15,4 +15,5 @@ Vår gruppe endte til slutt på å planlegge og til slutt utvikle en værmelding
     
 **Hvordan bruke vår værmeldingsapplikasjon?**
 
-Appen åpnes i nettleser. Dette skal fungere i alle nettlesere, men vi opplevde at Chrome først måtte få tillatelse til å åpne programmet. Dette gjøres ved å endre egenskapene til Chrome og gi kommandoen "-allow-file-access-from-files" i "målfeltet". Når applikasjonen kjører er det bare å søke på ønsket by og land for så å utføre søket med søkeknappen (get weather). Byer i USA krever staten oppgitt for at søket skal bli godkjent. Eksempelvis: "City: Boston, State/Country: MA", da vil appen gi en presis værrapport fra Boston, Massachusetts. 
+Appen åpnes i nettleser. Dette skal fungere i alle nettlesere, men vi opplevde at Chrome først måtte få tillatelse til å åpne programmet. Dette gjøres ved å endre egenskapene til Chrome og gi kommandoen "-allow-file-access-from-files" i "målfeltet". Når applikasjonen kjører er det bare å søke på ønsket by og land for så å utføre søket med søkeknappen (get weather). Byer i USA krever staten oppgitt for at søket skal bli godkjent. Eksempelvis: "City: Boston, State/Country: MA", da vil appen gi en presis værrapport fra Boston, Massachusetts.
+Kodefilen lastes altså ned i html-format, og åpnes i Chrome, hvor du da vil umiddelbart få mulighet til søke etter værforholdene.
