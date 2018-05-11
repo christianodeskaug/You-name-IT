@@ -52,11 +52,13 @@
 				var condition = weatherData.current_observation.weather;
 				var temperature = weatherData.current_observation.temperature_string;
 				var humidity = weatherData.current_observation.relative_humidity;
- 
+ 				var wind = weatherData.current_observation.wind_string;
+				
 				document.getElementById("WeatherTable").innerHTML = '<tr><td>Icon</td><td><img src="' + pictureURL + '" /></td></tr>';
 				document.getElementById("WeatherTable").innerHTML += '<tr><td>Condition</td><td>' + condition + '</td></tr>';
 				document.getElementById("WeatherTable").innerHTML += '<tr><td>Temperature</td><td>' + temperature + '</td></tr>';
 				document.getElementById("WeatherTable").innerHTML += '<tr><td>Humidity</td><td>' + humidity + '</td></tr>';
+				document.getElementById("WeatherTable").innerHTML += '<tr><td>Wind</td><td>' + wind + '</td></tr>';
 			}
 	</script>
 </head>
