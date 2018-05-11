@@ -20,5 +20,7 @@ Appen åpnes i nettleser. Dette skal fungere i alle nettlesere, men vi opplevde 
 Kodefilen lastes altså ned i html-format, og åpnes i Chrome, hvor du da vil umiddelbart få mulighet til søke etter værforholdene.
 
 Eksempel fra appen vår:
+
 ![alt text](http://i67.tinypic.com/v5hcbb.png)
+
 (åpnet i nettleser på PC, brukt Chrome-verktøy for å se hvordan den hadde sett ut på mobil)
