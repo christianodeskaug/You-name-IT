@@ -3,7 +3,7 @@
 **Gruppemedlemmer**
 * Christian Ødeskaug - christianodeskaug@hotmail.com
 * Henrik Lindseth - henrik.lindseth1@gmail.com
-* Kristian Holmberg Sørensen - kristian_h_sorensen@hotmail.com
+* (Kristian Holmberg Sørensen - kristian_h_sorensen@hotmail.com)
 
     
 **Systemspesifikasjon, hva går appen vår ut på?**
