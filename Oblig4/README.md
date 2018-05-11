@@ -2,9 +2,8 @@
     
 **Gruppemedlemmer**
 * Christian Ødeskaug - christianodeskaug@hotmail.com
-* navn nr 2
+* Kristian Holmberg Sørensen - kristian_h_sorensen@hotmail.com
 * navn nr 3
-
     
 **Systemspesifikasjon, hva går appen vår ut på?**
 
