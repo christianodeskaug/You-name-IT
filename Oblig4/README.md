@@ -10,6 +10,7 @@
 Vår gruppe endte til slutt på å planlegge og til slutt utvikle en værmeldingsapplikasjon, der man gjennom utfylling av sted og lokasjon vil finne ut nøyaktig hvordan værforholdet og temperaturen er på det gitte området. Vi tenker at dette er en bra idé, spesielt nå som det begynner å bli strålende fint og varmt utendørs! Vår applikasjon skal være lett å bruke, og oversiktlig nok til at enhver person kan finne ut hvordan den fungerer, og raskt få tilbakemelding på det han eller hun trenger å vite om værforholdet i dette sekund. Appen skal videføre sanntidsinformasjon til brukeren, som vil si at informasjonen som blir motatt skal være fersk og riktig, noe som forventes i en værmeldingsapp. Det skal være mulig å bruke appen i webleseren.
     
 **Systemarkitektur, hvordan er appen vår bygget opp?**
+
 Applikasjonen vår er en filbasert webside som forteller oss den nåværende værsituasjonen hvor som helst i verden. Filen er i html-format, og inneholder html-kode som fremstiller JSON-data fra en API-nettside (ligger i Oblig4 her på github) til strukturert data som kan leses som normal tekst. API'en viste oss mange funksjoner vi kunne legge til i vår værmelding, men vi valgte å strukturere applikasjonen vår slik at den er mest mulig forståelig, og dermed ha med de mest ettersøkte og nødvendige funksjonene. Enhver populær nettleser kan brukes, men vi i gruppen gikk for Google Chrome som standardnettleser for applikasjonen vår. Vi har enhetstestet applikasjonen vår, og den fungerer som den skal innad i gruppen.
 
     
