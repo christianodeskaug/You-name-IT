@@ -4,6 +4,7 @@
 * Christian Ødeskaug - christianodeskaug@hotmail.com
 * navn nr 2
 * navn nr 3
+
     
 **Systemspesifikasjon, hva går appen vår ut på?**
 
