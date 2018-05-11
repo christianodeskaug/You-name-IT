@@ -1,0 +1,94 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Kristiansand, Norway",
+		"city":"Kristiansand",
+		"state":"10",
+		"state_name":"Norway",
+		"country":"NO",
+		"country_iso3166":"NO",
+		"zip":"00000",
+		"magic":"1",
+		"wmo":"01452",
+		"latitude":"58.15000153",
+		"longitude":"8.00000000",
+		"elevation":"7.9"
+		},
+		"observation_location": {
+		"full":"Kristiansand, ",
+		"city":"Kristiansand",
+		"state":"",
+		"country":"NO",
+		"country_iso3166":"NO",
+		"latitude":"58.15",
+		"longitude":"7.99",
+		"elevation":"68 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"IKRISTIA120",
+		"observation_time":"Last Updated on May 11, 1:45 PM CEST",
+		"observation_time_rfc822":"Fri, 11 May 2018 13:45:53 +0200",
+		"observation_epoch":"1526039153",
+		"local_time_rfc822":"Fri, 11 May 2018 13:47:03 +0200",
+		"local_epoch":"1526039223",
+		"local_tz_short":"CEST",
+		"local_tz_long":"Europe/Oslo",
+		"local_tz_offset":"+0200",
+		"weather":"Partly Cloudy",
+		"temperature_string":"63.1 F (17.3 C)",
+		"temp_f":63.1,
+		"temp_c":17.3,
+		"relative_humidity":"64%",
+		"wind_string":"From the SSE at 3.7 MPH Gusting to 8.1 MPH",
+		"wind_dir":"SSE",
+		"wind_degrees":157,
+		"wind_mph":3.7,
+		"wind_gust_mph":"8.1",
+		"wind_kph":6.0,
+		"wind_gust_kph":"13.0",
+		"pressure_mb":"1017",
+		"pressure_in":"30.04",
+		"pressure_trend":"0",
+		"dewpoint_string":"51 F (11 C)",
+		"dewpoint_f":51,
+		"dewpoint_c":11,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"63.1 F (17.3 C)",
+		"feelslike_f":"63.1",
+		"feelslike_c":"17.3",
+		"visibility_mi":"6.2",
+		"visibility_km":"10.0",
+		"solarradiation":"--",
+		"UV":"7","precip_1hr_string":"-999.00 in ( 0 mm)",
+		"precip_1hr_in":"-999.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"-999.00 in (-25375 mm)",
+		"precip_today_in":"-999.00",
+		"precip_today_metric":"--",
+		"icon":"partlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/partlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/global/stations/01452.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=IKRISTIA120",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=58.151176,7.994386",
+		"nowcast":""
+	}
+}
