@@ -39,8 +39,8 @@
 				}
  
 				var city = document.getElementById("CityInput").value;
-				var country = document.getElementById("CountryInput").value;
- 
+				var country = document.getElementById("CountryInput").value;			
+ <!-- Using API key from weather underground -->
 				xmlhttp.open("GET", "http://api.wunderground.com/api/b6e3b1d7c1e3c28f/conditions/q/" + country + "/" + city + ".json", false);
 				xmlhttp.send();			
 			}
